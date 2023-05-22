@@ -1,0 +1,74 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 60px;
+    padding: 20px 50px;
+} 
+
+/* -- cabeçalho --*/
+
+.cabecalho {
+    text-align: center;
+   
+}
+
+ .paragrafo1 {
+
+    text-align: center;
+    font-style: italic;
+   
+ }
+
+ .destaque-texto {
+    font-weight: bolder;
+    font-style: italic;
+ }
+
+/* corpo do site */
+
+.img-detaque {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Biografica*/
+
+.texto{
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+/* Citações */
+.frase-container {
+    background-color: #999;
+    padding: 30px;
+}
+
+.frase-container blockquote{
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+.frase-container p {
+   font-style: italic;
+}
+/* -- Curiosidade -- */
+.curiosidade {
+    padding: 25px 0;
+    margin: 25px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.curiosidade li{
+    height: 30px;
+}
